@@ -1,0 +1,25 @@
+{
+  "logo": {
+    "color": {"1": "default"},
+    "source": "/home/matt/.config/fastfetch/braille.txt"
+  },
+  "modules": [
+    "os",
+    "kernel",
+    "uptime",
+    {
+      "type": "packages",
+      "key": "Bloat Highscore"
+    },
+    "shell",
+    "de",
+    "terminalfont",
+    "cpu",
+    "gpu",
+    "memory",
+    "swap",
+    "disk",
+    "break",
+    "colors"
+  ]
+}

@@ -1,0 +1,116 @@
+"$schema" = "https://starship.rs/config-schema.json"
+format = "[╭](fg:color_main)$shell$hostname$directory$git_branch$git_status$c$rust$golang$haskell$rlang$python$lua$docker_context[](fg:color_main)$fill[](fg:color_main)$cmd_duration$memory_usage$status$battery$time[\n╰](fg:color_main)$character"
+continuation_prompt = "[╰── ](fg:color_main)"
+palette = "main"
+
+[palettes.main]
+color_fg = "#FAFAFA"
+color_main = "#4078F2"
+color_purple = "#A626A4"
+color_yellow = "#C18401"
+color_red = "#CA1243"
+color_bg = "#FAFAFA"
+
+[fill]
+symbol = " "
+style = "fg:color_main"
+
+[shell]
+disabled = false
+format = "[ $indicator]($style)"
+style = "bg:color_main fg:color_fg"
+bash_indicator = ""
+zsh_indicator = ""
+xonsh_indicator = ""
+fish_indicator = ""
+
+[hostname]
+format = "[ $ssh_symbol $hostname]($style)"
+ssh_symbol = ""
+style = "bold bg:color_main fg:color_fg"
+
+[username]
+show_always = false
+style_user = "bg:color_main fg:color_fg"
+style_root = "bg:color_main fg:color_red"
+format = "[ $user]($style)"
+
+[directory]
+style = "fg:color_fg bg:color_main"
+format = "[ $path ]($style)"
+truncation_length = 5
+truncation_symbol = "…/"
+
+[directory.substitutions]
+Books = ""
+Desktop = ""
+Documents = "󰈙"
+Downloads = ""
+Games = "󰊖"
+Music = "󰝚"
+Pictures = ""
+Programming = "󰲋"
+Videos = ""
+
+[git_branch]
+symbol = ""
+style = "fg:color_fg bg:color_main"
+format = "[ $symbol $branch ]($style)"
+
+[git_status]
+style = "fg:color_fg bg:color_main"
+format = "[($all_status$ahead_behind )]($style)"
+
+[lua]
+style = "fg:color_fg bg:color_main"
+format = "[ $symbol($version) ]($style)"
+
+[c]
+symbol = " "
+style = "fg:color_fg bg:color_main"
+format = "[ $symbol( $version) ]($style)"
+
+[rust]
+symbol = ""
+style = "fg:color_fg bg:color_main"
+format = "[ $symbol( $version) ]($style)"
+
+[golang]
+symbol = ""
+style = "fg:color_fg bg:color_main"
+format = "[ $symbol( $version) ]($style)"
+
+[haskell]
+symbol = ""
+style = "fg:color_fg bg:color_main"
+format = "[ $symbol( $version) ]($style)"
+
+[python]
+symbol = ""
+style = "fg:color_fg bg:color_main"
+format = "[ $symbol( $version) ]($style)"
+
+[docker_context]
+symbol = ""
+style = "fg:color_fg bg:color_main"
+format = "[ $symbol( $context) ]($style)"
+
+[time]
+disabled = false
+time_format = "%R"
+style = "fg:color_fg bg:color_main"
+format = "[ 󱑃 $time ]($style)"
+
+[cmd_duration]
+format = "[[ 󱎫 ($duration )](fg:color_fg bg:color_main)[┃](fg:color_bg bg:color_main)]($style)"
+min_time = 500
+min_time_to_notify = 45000
+
+[character]
+disabled = false
+success_symbol = "[](bold fg:color_main)"
+error_symbol = "[](bold fg:color_red)"
+vimcmd_symbol = "[](bold fg:color_main)"
+vimcmd_replace_one_symbol = "[](bold fg:color_purple)"
+vimcmd_replace_symbol = "[](bold fg:color_purple)"
+vimcmd_visual_symbol = "[](bold fg:color_yellow)"

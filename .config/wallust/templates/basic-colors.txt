@@ -1,0 +1,22 @@
+foreground {{foreground}}
+background {{background}}
+cursor {{cursor}}
+color0 {{color0}}
+color1 {{color1}}
+color2 {{color2}}
+color3 {{color3}}
+color4 {{color4}}
+color5 {{color5}}
+color6 {{color6}}
+color7 {{color7}}
+color8 {{color8}}
+color9 {{color9}}
+color10 {{color10}}
+color11 {{color11}}
+color12 {{color12}}
+color13 {{color13}}
+color14 {{color14}}
+color15 {{color15}}
+blue3 {{ color4 | blend(background) | blend(foreground) | blend(background) | saturate(0.6) | lighten(0.015) }}
+blue4 {{ color4 | blend(background) | blend(foreground) | saturate(0.65) | darken(0.35) }}
+bg1 {{background | saturate(0.2)}}

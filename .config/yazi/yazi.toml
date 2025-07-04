@@ -1,0 +1,14 @@
+[mgr]
+show_hidden = true
+ratio = [1,4,4]
+sort_by = "natural"
+
+[preview]
+image_quality = 50
+max_width = 3800
+max_height = 3800
+
+[plugin]
+append_previewers = [
+  { name = "*", run = "hexyl" },
+]

@@ -1,0 +1,43 @@
+# hand-maintained mappings for different themes
+[kde]
+dark = ["BreezeDark", "EdgeDark", "KritaBlender", "KritaDark", "KritaDarkOrange", "KritaDarker", "KritaNeutral", "Layan", "Kanagawa", "MkosBigSurDark", "Otto", "WhiteSurDark", "AyuDark", "AyuMirage"]
+light = ["BreezeClassic", "BreezeLight", "EdgeLight", "KritaBright","LayanLight", "Oxygen", "OxygenCold", "WhiteSur", "WhiteSurAlt", "Ayu-Light"]
+
+[hx_to_wal]
+# should do a check to see if there's an identical hx theme
+# for a given wallust_theme.lower().replace("base16-") or whatever
+# Currently not possible to add a theme to wallust except at compile time :(
+"Kanagawa-Wave" = "kanagawa"
+"base16-onedark" = "onedark"
+"monokai" = "monokai"
+"base16-dracula" = "dracula"
+"gruvbox" = "gruvbox"
+"base16-gruvbox-hard-light" ="gruvbox_light_hard"
+"github" = "github"
+"base16-gruvbox-soft-dark" = "gruvbox_dark_soft"
+"base16-snazzy" = "snazzy"
+"rose-pine" = "rose_pine"
+"rose-pine-dawn" = "rose_pine_dawn"
+"rose-pine-moon" = "rose_pine_moon"
+"base16-solarized-dark" = "solarized_dark"
+"base16-solarized-light" = "solarized_light"
+"base16-zenburn" = "zenburn"
+"Monokai" = "monokai"
+"Ayu-Dark" = "ayu_dark"
+"Ayu-Mirage" = "ayu_mirage"
+"Ayu-Light" = "ayu_light"
+"Everblush" = "everblush"
+"Dracula" = "dracula"
+"Everforest-Dark-Hard" = "everforest-dark"
+"Flexoki-Dark" = "flexoki-dark"
+"Everforest-Light-Medium" = "everforest-light"
+"Flexoki-Light" = "flexoki-light"
+"Grape" = "default"
+"Modus-Vivendi-Tinted" = "modus-vivendi-tinted"
+"Modus-Vivendi" = "modus-vivendi"
+"Sonokai" = "sonokai"
+"Iceberg" = "iceberg-dark"
+"Tokyo-Night" = "tokyonight"
+"Tokyo-Night-Light" = "tokyonight-day"
+"One-Light" = "onelight"
+"base16-one" = "onelight"

@@ -1,0 +1,13 @@
+config-file = colors
+
+font-family = DejaVuSansM Nerd Font Mono
+mouse-hide-while-typing = true
+
+keybind = ctrl+shift+o=ignore
+keybind = ctrl+shift+e=ignore
+keybind = ctrl+enter=ignore
+
+keybind = ctrl+alt+h=new_split:left
+keybind = ctrl+alt+j=new_split:down
+keybind = ctrl+alt+k=new_split:up
+keybind = ctrl+alt+l=new_split:right

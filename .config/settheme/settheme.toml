@@ -1,0 +1,14 @@
+# settheme config
+
+lat = 42
+long = -88
+rise_delay = 1
+set_delay = -1
+
+[day]
+KDE = "EdgeLight"
+wallust = "base16-one"
+
+[night]
+KDE = "AyuDark"
+wallust = "Ayu-Dark"

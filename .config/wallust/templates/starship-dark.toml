@@ -1,0 +1,7 @@
+[palettes.main]
+color_fg = "{{background}}"
+color_main = "{{color4}}"
+color_red = "{{color1}}"
+color_purple="{{color5}}"
+color_yellow="{{color3}}"
+color_bg = "{{background}}"

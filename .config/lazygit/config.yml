@@ -1,0 +1,8 @@
+git:
+  paging:
+    colorArg: always
+    pager: delta --paging=never
+gui:
+  mouseEvents: true
+  nerdFontsVersion: '3'
+notARepository: quit
