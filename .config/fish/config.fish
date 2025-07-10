@@ -1,6 +1,6 @@
 # fish config
 
-fish_add_path $CARGO_HOME/bin $HOME/.local/bin $HOME/Programming
+fish_add_path $CARGO_HOME/bin $HOME/.local/bin
 
 if status is-interactive
     function fish_greeting
