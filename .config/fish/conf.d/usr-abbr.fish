@@ -1,6 +1,7 @@
 # specific to network
 abbr forceums 'sudo umount -a -t cifs -l'
 abbr ph 'ssh Whippoorwill'
+abbr pd 'ssh Heron'
 
 # general
 abbr quiet --position anywhere '&>/dev/null'
