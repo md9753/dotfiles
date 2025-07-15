@@ -1,25 +1,48 @@
 {
-  "logo": {
-    "color": {"1": "default"},
-    "source": "/home/matt/.config/fastfetch/braille.txt"
-  },
-  "modules": [
-    "os",
-    "kernel",
-    "uptime",
-    {
-      "type": "packages",
-      "key": "Bloat Highscore"
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "display": {
+        "size": {
+            "maxPrefix": "MB",
+            "ndigits": 0
+        }
     },
-    "shell",
-    "de",
-    "terminalfont",
-    "cpu",
-    "gpu",
-    "memory",
-    "swap",
-    "disk",
-    "break",
-    "colors"
-  ]
+    "logo": {
+        "color": {"1": "default"},
+        "source": "/home/matt/.config/fastfetch/braille.txt"
+    },
+    "modules": [
+        "title",
+        "separator",
+        "os",
+        "host",
+        {
+            "type": "kernel",
+            "format": "{release}"
+        },
+        "uptime",
+        {
+          "type": "packages",
+          "key": "Bloat Highscore"
+        },
+        "shell",
+        {
+            "type": "display",
+            "compactType": "original",
+            "key": "Resolution"
+        },
+        "de",
+        "theme",
+        "icons",
+        "cpu",
+        {
+            "type": "gpu",
+            "key": "GPU"
+        },
+        {
+            "type": "memory",
+            "format": "{} / {}"
+        },
+        "break",
+        "colors"
+    ]
 }

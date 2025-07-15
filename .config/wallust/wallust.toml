@@ -51,4 +51,4 @@ general = {template = 'basic-colors.txt', target = '~/.cache/colors.ini'}
 bat = {template = 'tmTheme-colors.tmTheme', target = '~/.config/bat/themes/wallust.tmTheme'}
 ghostty = {template = 'ghostty.conf', target = '~/.config/ghostty/colors', pywal=true}
 konsole = {template = 'konsole-colors.colorscheme', target = '~/.local/share/konsole/wallust.colorscheme'}
-spicetify = {template = 'spicetify-colors.ini', target = '~/.config/spicetify/Themes/Comfy/colors.ini'}
+spicetify = {template = 'spicetify-colors.ini', target = '~/.config/spicetify/Themes/Comfy/color.ini', pywal=true}
