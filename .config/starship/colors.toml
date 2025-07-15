@@ -1,7 +1,7 @@
 [palettes.main]
-color_fg = "#FAFAFA"
-color_main = "#4078F2"
-color_purple="#A626A4"
-color_yellow="#C18401"
-color_red = "#CA1243"
-color_bg = "#FAFAFA"
+color_fg = "#073642"
+color_main = "#268BD2"
+color_red = "#DC322F"
+color_purple="#D33682"
+color_yellow="#B58900"
+color_bg = "#073642"
