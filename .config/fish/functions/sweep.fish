@@ -15,7 +15,7 @@ function sweep --description 'Inverse of md; delete directories and cd up'
 
     for dir in "$argv"
         if [ -d "$dir" ]
-            find "$dir" -mindepth 1 -type d | tac | xargs rmdir &>/dev/null
+            find "$dir" -mindepth 1 -type d | tac | xargs -i rmdir '{}' &>/dev/null
             _climb "$dir"
         end
     end

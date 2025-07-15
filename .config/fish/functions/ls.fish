@@ -3,6 +3,6 @@ function ls --wraps='eza' --description 'alias ls=eza'
     if command -q eza
         eza --group-directories-first --icons --hyperlink --follow-symlinks $argv
     else
-        ls --color=auto -F
+        command ls --color=auto -F
     end
 end
