@@ -29,3 +29,5 @@ if status is-interactive
         fzf --fish | source
     end
 end
+
+fish_add_path /home/matt/.spicetify

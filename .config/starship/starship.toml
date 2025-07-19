@@ -5,7 +5,7 @@ palette = "main"
 
 [palettes.main]
 color_fg = "#FAFAFA"
-color_main = "#4078F2"
+color_main = "#b98941"
 color_purple = "#A626A4"
 color_yellow = "#C18401"
 color_red = "#CA1243"
