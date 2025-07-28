@@ -13,11 +13,13 @@
     "modules": [
         "title",
         "separator",
-        "os",
-        "host",
         {
-            "type": "kernel",
-            "format": "{release}"
+            "type": "os",
+            "format": "{name} {version-id}"
+        },
+        {
+            "type": "host",
+            "format": "Framework {name}"
         },
         "uptime",
         {
@@ -31,13 +33,19 @@
             "key": "Resolution"
         },
         "de",
-        "theme",
-        "icons",
-        "cpu",
         {
-            "type": "gpu",
-            "key": "GPU"
+            "type": "theme",
+            "format": "{theme1}"
         },
+         {
+            "type": "icons",
+            "format": "{icons1}"
+        },
+        {
+            "type": "font",
+            "format": "{font1}"
+        },
+        "cpu",
         {
             "type": "memory",
             "format": "{} / {}"

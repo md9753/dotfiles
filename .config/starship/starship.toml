@@ -4,12 +4,13 @@ continuation_prompt = "[╰── ](fg:color_main)"
 palette = "main"
 
 [palettes.main]
-color_fg = "#FAFAFA"
-color_main = "#b98941"
+color_fg = "#000000"
+color_main = "#e3c66d"
 color_purple = "#A626A4"
 color_yellow = "#C18401"
 color_red = "#CA1243"
 color_bg = "#FAFAFA"
+transparent = "#000000"
 
 [fill]
 symbol = " "
@@ -101,8 +102,9 @@ time_format = "%R"
 style = "fg:color_fg bg:color_main"
 format = "[ 󱑃 $time ]($style)"
 
+# ┃
 [cmd_duration]
-format = "[[ 󱎫 ($duration )](fg:color_fg bg:color_main)[┃](fg:color_bg bg:color_main)]($style)"
+format = "[[ 󱎫 ($duration )](fg:color_fg bg:color_main)]($style)"
 min_time = 500
 min_time_to_notify = 45000
 
